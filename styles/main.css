@@ -63,7 +63,7 @@
     }
 
     .nav-menu li:hover {
-        background-color: #009E61;
+        background-color: #252525;
         transition: 0.3s;
         color: #c54f00;
     }
@@ -245,7 +245,7 @@
 
     .nav-menu a:hover, .nav-menu a:active {
         color: #c54f00;
-        background-color: #009E61;
+        background-color: #252525;
         border-left: 10px solid #c54f00;
     }
 
