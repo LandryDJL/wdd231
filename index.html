@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="WDD 231 - Dynamic Web Fundamentals. Dally Jacob Landry. HTML, CSS, JavaScript, web development, front-end development, coding, BYU Idaho.">
+    <meta name="author" content="Dally Jacob Landry">
+    <meta name="keywords" content="HTML, CSS, JavaScript, web development, front-end development, coding, BYU Idaho">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" defer></script>
+    <title>Home Page</title>
 </head>
 <body>
-    
+    <header>
+        <div id="top-bar">
+            <img src="images/me.jpg" alt="image of me">
+            <h1>Jacob Landry Dally</h1>
+        </div>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#" target="_blank">Home</a></li>
+                <li><a href="#" target="_blank">Chamber</a></li>
+                <li><a href="#" target="_blank">GitHub Profile</a></li>
+                <li><a href="#" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section-1">
+            <h3>Course Work</h3>
+            <ul class="list-courses-completed"></ul>
+        </section>
+        <section class="section-2">
+            <h3>Abidjan, Ivory Coast</h3>
+            <img src="images/single-elephant.jpg" alt="single elephant">
+            <h5>Elephant from Ivory Coast</h5>
+        </section>
+        <section class="section-3">
+            <h3>Web and Computer Programming Certificate</h3>
+            <button class="allCourses">All</button>
+            <button class="cseCourses">CSE</button>
+            <button class="wddCourses">WDD</button>
+            <div class="block-courses"></div>
+        </section>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span> Dally Jacob Landry - Ivory Coast <img src="images/Ivory-Coast-Flag.png" alt="Ivory Coast Flag"></p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
